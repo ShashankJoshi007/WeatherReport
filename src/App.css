@@ -9,14 +9,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #071633;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: 45px;
 }
 
 .App-link {
@@ -30,4 +31,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.font-size-search {
+  font-size: large
+}
+
+.marginTop{
+  margin-top: 10px;
+}
+
+.alignRight{
+  text-align: left;
 }
